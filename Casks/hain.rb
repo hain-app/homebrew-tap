@@ -5,7 +5,7 @@ cask "hain" do
   url "https://volker.tech/hain/releases/Hain-#{version}.zip"
   name "Hain"
   desc "Indexes every file on the Mac and shows what takes space"
-  homepage "https://volker.tech/hain.html"
+  homepage "https://volker.tech/hain/"
 
   depends_on macos: ">= :golden_gate"
   depends_on arch: :arm64
