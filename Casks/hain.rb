@@ -13,6 +13,10 @@ cask "hain" do
   app "Hain.app"
   # hain finds its sandboxed rules helper beside itself, so it's linked, never copied.
   binary "#{appdir}/Hain.app/Contents/Helpers/hain"
+  manpage "#{appdir}/Hain.app/Contents/Resources/man/man1/hain.1"
+  bash_completion "#{appdir}/Hain.app/Contents/Resources/completions/hain.bash"
+  zsh_completion "#{appdir}/Hain.app/Contents/Resources/completions/hain.zsh"
+  fish_completion "#{appdir}/Hain.app/Contents/Resources/completions/hain.fish"
 
   # The background agent's registration stays as it is: Homebrew runs uninstall blocks on upgrade
   # too, and an upgrade must leave the agent on. The caveats say how to turn it off first.
