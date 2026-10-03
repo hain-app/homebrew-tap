@@ -7,7 +7,7 @@ cask "hain" do
   desc "Indexes every file on the Mac and shows what takes space"
   homepage "https://volker.tech/hain/"
 
-  depends_on macos: ">= :golden_gate"
+  depends_on macos: :golden_gate
   depends_on arch: :arm64
 
   app "Hain.app"
