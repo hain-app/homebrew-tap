@@ -1,6 +1,6 @@
 cask "hain" do
-  version "0.3.3"
-  sha256 "87c0390da1ec4441f8593856328cedd2133b9ae43be2b2f9ca1f614fa2cb0e81"
+  version "0.3.4"
+  sha256 "cd0f8df3916085e28be19a3c073697f81b4ca454450b60d2872f32bb40cdda3d"
 
   url "https://volker.tech/hain/releases/Hain-#{version}.zip"
   name "Hain"
